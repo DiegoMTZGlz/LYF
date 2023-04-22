@@ -1,0 +1,541 @@
+[
+    {
+      "clave": 1,
+      "descripcion": "Arroz blanco",
+      "precio": 10.50,
+      "clasificacion": "granos",
+      "existencia": 50,
+      "existencia_minima": 10,
+      "existencia_maxima": 100
+    },
+    {
+      "clave": 2,
+      "descripcion": "Frijoles negros",
+      "precio": 8.00,
+      "clasificacion": "granos",
+      "existencia": 40,
+      "existencia_minima": 5,
+      "existencia_maxima": 80
+    },
+    {
+      "clave": 3,
+      "descripcion": "Aceite vegetal",
+      "precio": 15.00,
+      "clasificacion": "aceites",
+      "existencia": 60,
+      "existencia_minima": 10,
+      "existencia_maxima": 120
+    },
+    {
+      "clave": 4,
+      "descripcion": "Sal de mesa",
+      "precio": 3.50,
+      "clasificacion": "condimentos",
+      "existencia": 100,
+      "existencia_minima": 20,
+      "existencia_maxima": 200
+    },
+    {
+      "clave": 5,
+      "descripcion": "Azúcar blanca",
+      "precio": 5.00,
+      "clasificacion": "endulzantes",
+      "existencia": 80,
+      "existencia_minima": 10,
+      "existencia_maxima": 160
+    },
+    {
+      "clave": 6,
+      "descripcion": "Harina de trigo",
+      "precio": 12.00,
+      "clasificacion": "harinas",
+      "existencia": 70,
+      "existencia_minima": 10,
+      "existencia_maxima": 140
+    },
+    {
+      "clave": 7,
+      "descripcion": "Pasta de espagueti",
+      "precio": 8.50,
+      "clasificacion": "pastas",
+      "existencia": 50,
+      "existencia_minima": 5,
+      "existencia_maxima": 100
+    },
+    {
+      "clave": 8,
+      "descripcion": "Salsa de tomate",
+      "precio": 6.00,
+      "clasificacion": "salsas",
+      "existencia": 60,
+      "existencia_minima": 10,
+      "existencia_maxima": 120
+    },
+    {
+      "clave": 9,
+      "descripcion": "Sopa de pollo enlatada",
+      "precio": 4.50,
+      "clasificacion": "conservas",
+      "existencia": 40,
+      "existencia_minima": 5,
+      "existencia_maxima": 80
+    },
+    {
+      "clave": 10,
+      "descripcion": "Atún enlatado",
+      "precio": 12.00,
+      "clasificacion": "conservas",
+      "existencia": 50,
+      "existencia_minima": 10,
+      "existencia_maxima": 100
+    },
+    {
+        "clave": 11,
+        "descripcion": "Sardinas enlatadas",
+        "precio": 7.50,
+        "clasificacion": "conservas",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+    },
+    {
+        "clave": 12,
+        "descripcion": "Leche evaporada",
+        "precio": 7.00,
+        "clasificacion": "lacteos",
+        "existencia": 60,
+        "existencia_minima": 10,
+        "existencia_maxima": 120
+    },
+    {
+        "clave": 13,
+        "descripcion": "Leche en polvo",
+        "precio": 15.00,
+        "clasificacion": "lacteos",
+        "existencia": 40,
+        "existencia_minima": 5,
+        "existencia_maxima": 80
+    },
+    {
+        "clave": 14,
+        "descripcion": "Queso fresco",
+        "precio": 20.00,
+        "clasificacion": "lacteos",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+    },
+    {
+        "clave": 15,
+        "descripcion": "Mantequilla",
+        "precio": 12.50,
+        "clasificacion": "lacteos",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+    },
+    {
+        "clave": 16,
+        "descripcion": "Huevo blanco",
+        "precio": 3.00,
+        "clasificacion": "huevos",
+        "existencia": 100,
+        "existencia_minima": 20,
+        "existencia_maxima": 200
+    },
+    {
+        "clave": 17,
+        "descripcion": "Pollo entero",
+        "precio": 35.00,
+        "clasificacion": "carnes",
+        "existencia": 20,
+        "existencia_minima": 5,
+        "existencia_maxima": 40
+    },
+    {
+        "clave": 18,
+        "descripcion": "Carne molida de res",
+        "precio": 50.00,
+        "clasificacion": "carnes",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+    },
+    {
+        "clave": 19,
+        "descripcion": "Chuletas de cerdo",
+        "precio": 40.00,
+        "clasificacion": "carnes",
+        "existencia": 20,
+        "existencia_minima": 5,
+        "existencia_maxima": 40
+    },
+    {
+        "clave": 20,
+        "descripcion": "Salchichas",
+        "precio": 15.00,
+        "clasificacion": "carnes",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+    },
+    {
+        "clave": 21,
+        "descripcion": "Pan de caja",
+        "precio": 20.00,
+        "clasificacion": "pan",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 22,
+        "descripcion": "Pan dulce",
+        "precio": 5.00,
+        "clasificacion": "pan",
+        "existencia": 60,
+        "existencia_minima": 10,
+        "existencia_maxima": 120
+      },
+      {
+        "clave": 23,
+        "descripcion": "Tortillas",
+        "precio": 15.00,
+        "clasificacion": "pan",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 24,
+        "descripcion": "Galletas Marías",
+        "precio": 10.00,
+        "clasificacion": "galletas",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 25,
+        "descripcion": "Galletas de chocolate",
+        "precio": 15.00,
+        "clasificacion": "galletas",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 26,
+        "descripcion": "Cereal de hojuelas de maíz",
+        "precio": 25.00,
+        "clasificacion": "cereales",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 27,
+        "descripcion": "Cereal de avena",
+        "precio": 30.00,
+        "clasificacion": "cereales",
+        "existencia": 20,
+        "existencia_minima": 5,
+        "existencia_maxima": 40
+      },
+      {
+        "clave": 28,
+        "descripcion": "Arroz",
+        "precio": 20.00,
+        "clasificacion": "granos",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 29,
+        "descripcion": "Frijoles",
+        "precio": 15.00,
+        "clasificacion": "granos",
+        "existencia": 60,
+        "existencia_minima": 10,
+        "existencia_maxima": 120
+      },
+      {
+        "clave": 30,
+        "descripcion": "Lentejas",
+        "precio": 18.00,
+        "clasificacion": "granos",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },  {
+        "clave": 31,
+        "descripcion": "Aceite de oliva",
+        "precio": 40.00,
+        "clasificacion": "aceites",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 32,
+        "descripcion": "Aceite de canola",
+        "precio": 25.00,
+        "clasificacion": "aceites",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 33,
+        "descripcion": "Vinagre de manzana",
+        "precio": 15.00,
+        "clasificacion": "vinagres",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 34,
+        "descripcion": "Vinagre blanco",
+        "precio": 10.00,
+        "clasificacion": "vinagres",
+        "existencia": 60,
+        "existencia_minima": 10,
+        "existencia_maxima": 120
+      },
+      {
+        "clave": 35,
+        "descripcion": "Salsa de tomate",
+        "precio": 18.00,
+        "clasificacion": "salsas",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 36,
+        "descripcion": "Salsa de chile",
+        "precio": 15.00,
+        "clasificacion": "salsas",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 37,
+        "descripcion": "Mayonesa",
+        "precio": 25.00,
+        "clasificacion": "salsas",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 38,
+        "descripcion": "Mostaza",
+        "precio": 15.00,
+        "clasificacion": "salsas",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 39,
+        "descripcion": "Sopa de pasta",
+        "precio": 10.00,
+        "clasificacion": "sopas",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 40,
+        "descripcion": "Sopa de verduras",
+        "precio": 15.00,
+        "clasificacion": "sopas",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 41,
+        "descripcion": "Sopa de pollo",
+        "precio": 18.00,
+        "clasificacion": "sopas",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 42,
+        "descripcion": "Sopa de lentejas",
+        "precio": 20.00,
+        "clasificacion": "sopas",
+        "existencia": 20,
+        "existencia_minima": 5,
+        "existencia_maxima": 40
+      },
+      {
+        "clave": 43,
+        "descripcion": "Arroz",
+        "precio": 25.00,
+        "clasificacion": "granos",
+        "existencia": 100,
+        "existencia_minima": 20,
+        "existencia_maxima": 200
+      },
+      {
+        "clave": 44,
+        "descripcion": "Frijoles",
+        "precio": 20.00,
+        "clasificacion": "granos",
+        "existencia": 80,
+        "existencia_minima": 20,
+        "existencia_maxima": 160
+      },
+      {
+        "clave": 45,
+        "descripcion": "Harina",
+        "precio": 15.00,
+        "clasificacion": "granos",
+        "existencia": 60,
+        "existencia_minima": 10,
+        "existencia_maxima": 120
+      },
+      {
+        "clave": 46,
+        "descripcion": "Leche",
+        "precio": 12.00,
+        "clasificacion": "lacteos",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 47,
+        "descripcion": "Queso",
+        "precio": 30.00,
+        "clasificacion": "lacteos",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 48,
+        "descripcion": "Yogur",
+        "precio": 15.00,
+        "clasificacion": "lacteos",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 49,
+        "descripcion": "Huevo",
+        "precio": 5.00,
+        "clasificacion": "huevos",
+        "existencia": 60,
+        "existencia_minima": 10,
+        "existencia_maxima": 120
+      },
+      {
+        "clave": 50,
+        "descripcion": "Mantequilla",
+        "precio": 20.00,
+        "clasificacion": "lacteos",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 51,
+        "descripcion": "Jamón",
+        "precio": 35.00,
+        "clasificacion": "carnes",
+        "existencia": 20,
+        "existencia_minima": 5,
+        "existencia_maxima": 40
+      },
+      {
+        "clave": 52,
+        "descripcion": "Salchicha",
+        "precio": 25.00,
+        "clasificacion": "carnes",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      },
+      {
+        "clave": 53,
+        "descripcion": "Carne de res",
+        "precio": 120.00,
+        "clasificacion": "carnes",
+        "existencia": 10,
+        "existencia_minima": 2,
+        "existencia_maxima": 20
+      },
+      {
+        "clave": 54,
+        "descripcion": "Pollo",
+        "precio": 60.00,
+        "clasificacion": "carnes",
+        "existencia": 15,
+        "existencia_minima": 3,
+        "existencia_maxima": 30
+      },
+      {
+        "clave": 55,
+        "descripcion": "Pescado",
+        "precio": 80.00,
+        "clasificacion": "carnes",
+        "existencia": 10,
+        "existencia_minima": 2,
+        "existencia_maxima": 20
+      },
+      {
+        "clave": 56,
+        "descripcion": "Pan blanco",
+        "precio": 12.00,
+        "clasificacion": "pan",
+        "existencia": 50,
+        "existencia_minima": 10,
+        "existencia_maxima": 100
+      },
+      {
+        "clave": 57,
+        "descripcion": "Pan integral",
+        "precio": 15.00,
+        "clasificacion": "pan",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 58,
+        "descripcion": "Galletas",
+        "precio": 8.00,
+        "clasificacion": "pan",
+        "existencia": 80,
+        "existencia_minima": 20,
+        "existencia_maxima": 160
+      },
+      {
+        "clave": 59,
+        "descripcion": "Cereal",
+        "precio": 25.00,
+        "clasificacion": "cereales",
+        "existencia": 40,
+        "existencia_minima": 10,
+        "existencia_maxima": 80
+      },
+      {
+        "clave": 60,
+        "descripcion": "Avena",
+        "precio": 20.00,
+        "clasificacion": "cereales",
+        "existencia": 30,
+        "existencia_minima": 5,
+        "existencia_maxima": 60
+      }
+]
